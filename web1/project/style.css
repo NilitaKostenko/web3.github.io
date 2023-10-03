@@ -39,7 +39,7 @@ body{
    background-color: #a484f6;
 }
 .page-nav{
-   max-width: 960px;
+   max-width: 100%;
    margin: 0;
    background-color: rgb(70, 174, 167);
    margin-top: 10px;
@@ -63,7 +63,7 @@ body{
 
  div {
    margin: 0;
-   max-width: 960px;
+   max-width: 100%;
  }
  .link  {
   margin: 0 auto;
@@ -147,13 +147,14 @@ border: 5px solid #000000;
 
     header{
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
     .page-nav{
         order: -1;
         margin-top: 0;
         display: flex;
         justify-content: flex-end;
+        float: right;
     }
     .page-nav ul{
         flex-direction: row !important;
